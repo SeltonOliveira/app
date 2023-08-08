@@ -1,0 +1,172 @@
+.main-score{
+  width: 1280px;
+  height: 611px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #48484d;
+}
+.score-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 19px;
+  background-color: #202024;
+  border-radius: 25px;
+  box-shadow: 0px 4px 0px 0px #00000040;
+  width: 711px;
+  height: 435px;
+}
+
+.score-screen h2 {
+  font-size: 50px;
+  color: #E1E1E6;
+}
+
+.score-screen span {
+  border-radius: 42px;
+  margin-left: 48.94px;
+}
+
+.acpt-err-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 618px;
+  height: 83px;
+  padding: 0 20px;
+  border-radius: 42px;
+  box-shadow: 0px 4px 0px 0px #00000040 inset;
+  background-color: #48484d;
+}
+
+.acertos-container,
+.erros-container,
+.percent-container {
+  display: flex;
+  align-items: center;
+}
+
+.acertos-container span,
+.erros-container span {
+  font-size: 30px;
+  color: #E1E1E6;
+  margin: 0 0 0 48.94px;
+}
+
+.percent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 618px;
+  height: 83px;
+  padding: 0 20px;
+  background-color: #2c4766;
+  color: #FFFFFF;
+  font-size: 30px;
+  border-radius: 42px;
+  margin-bottom: 49px;
+}
+.result{
+  font-size: 40px;
+  padding: 89px;
+  color: #E1E1E6;
+}
+
+.result-percent{
+  color: #FFFFFF;
+  padding: 62px;
+}
+
+@media (max-width: 768px) {
+  .main-score {
+    width: 100vw;
+  }
+
+  .score-screen {
+    width: 400px; 
+  }
+
+  .score-screen h2 {
+    font-size: 36px; 
+  }
+  .acpt-err-container {
+    width: 350px;
+    
+  }
+
+  .acertos-container span,
+  .erros-container span {
+    font-size: 20px; 
+    margin: 1rem; 
+  }
+
+  .score-screen span {
+    margin: 0;
+  }
+
+  .percent-container {
+    font-size: 20px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+
+  .result {
+    font-size: 25px; 
+    padding: 40px; 
+  }
+
+  .result-percent {
+    padding: 30px;
+  }
+}
+
+@media (min-width:359px) and (max-width: 768px) {
+  .main-score{
+    height: 70vh;
+  }
+   .score-screen {
+    width: 99vw;
+  }
+
+  .acpt-err-container {
+    width: 300px;
+    height: 70px;
+  }
+
+  .percent-container{
+    width: 300px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-score {
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .score-screen{
+    width: 99vw;
+    height: 70vh;
+    gap: 80px;
+  }
+
+  .acpt-err-container {
+    width: 700px;
+    height: 180px;
+    border-radius: 100px;
+  }
+
+  .acpt-err-container span {
+    font-size: 50px;
+  }
+
+  .percent-container{
+    width: 700px;
+    height: 180px;
+    border-radius: 100px;
+  }
+}

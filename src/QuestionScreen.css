@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.fatherScreen{
+  width: 1280px;
+  height: 611px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #48484d;
+}
+
+.question-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #202024;
+    border-radius: 25px;
+    box-shadow: 0px 4px 0px 0px #00000040;
+    width: 970px;
+    height: 503px;
+    text-align: center;
+    margin-bottom: 61px;
+    margin-top: 45px;
+  }
+  
+  .question-screen h2 {
+    color: #FFFFFF;
+    background-color: #2c4766;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0px 4px 0px 0px #00000040 inset;
+    border-radius: 42px;
+    width: 886px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .question-screen ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+  }
+
+  .question-screen li {
+    background-color: #48484d;
+    width: 882px;
+    height: 79px;
+    border-radius: 42px;
+    cursor: pointer;
+    border: 2px solid #737373;
+    color: #E1E1E6;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .question-screen li:hover {
+    background-color: #505053;
+  }
+
+
+@media (min-width:359px) and (max-width: 768px) {
+  .fatherScreen {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .question-screen{
+    width: 99vw;
+  }
+
+  .question-screen h2, .question-screen li {
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 0 15px 0 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .fatherScreen {
+    width: 100vw;
+    height: 70vh;
+  }
+  .question-screen {
+    width: 99vw;
+    height: 60vh;
+  }
+
+  .question-screen h2, .question-screen li {
+    width: 700px;
+    height: 180px;
+    border-radius: 100px;
+    font-size: 40px;
+    padding: 0 20px 0 20px;
+  }
+
+}
+  

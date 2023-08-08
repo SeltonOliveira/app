@@ -1,0 +1,69 @@
+  .App{
+    /*Desktop styles*/
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* app.css */
+  .App-header {
+    background-color: #202024;
+    width: 1280px;
+    height: 109px;
+    display: flex;
+    align-items: center;
+  }
+
+  .App-header .icon{
+    margin-left: 34px;
+  }
+  
+  .App-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#E1E1E6;
+    margin-left: 46px;
+  }
+
+  @media (max-width: 768px) {
+    *{
+      overflow: hidden;
+    }
+    .App {
+      width: 100%;
+    }
+  
+    .App-header {
+      width: 100vw;
+      padding: 10px;
+    }
+  
+    .App-header h1 {
+      font-size: 24px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .App {
+      overflow: hidden;
+    }
+    .App {
+      width: 100vw;
+    }
+  
+    .App-header {
+      width: 100vw;
+      padding: 10px;
+    }
+  
+    .App-header h1 {
+      font-size: 50px;
+    }
+  }
+  
+  
