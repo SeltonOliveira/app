@@ -33,7 +33,7 @@ const WelcomeScreen = ({ onUsernameSubmit }) => {
 const Quiz = ({ username }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
-  const [errorCount, setErrorCount] = useState(0);
+  const [ setErrorCount] = useState(0);
 
     // Array de perguntas e respostas
   const perguntas = [
