@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../src/img/bg.jpg");
+    background-image: url("../src/img/background-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
